@@ -2,7 +2,7 @@ git clone <repo-url>
 cd client-project
 then pip install requirements.txt
 or
-pip install selenium openai dotenv-python requests pandas
+pip install selenium openai python-dotenv requests pandas 
 
 then run add the .env
 then run 0-UpdateProfile.py only once
