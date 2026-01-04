@@ -1,0 +1,12 @@
+if need to convert into exe 
+firt move the profile from internal to main folder then 
+run this commands
+pip install pyinstaller
+
+pyinstaller --add-data "templates;templates" --add-data "static;static" --add-data "selenium_script.py;." app.py
+
+
+pyinstaller --add-data "my_profile_0;my_profile_0" --add-data "uploader.py;." --add-data "scarper.py;." app1.py
+
+pyinstaller --onefile app.py
+pyinstaller --add-data "my_profile_0;my_profile_0"  --add-data "my_profile_1;my_profile_1" --add-data "my_profile_2;my_profile_2" --add-data "my_profile_3;my_profile_3" --add-data "my_profile_4;my_profile_4" 2-searchPrice.py 
