@@ -1,6 +1,6 @@
 git clone <repo-url>
 cd client-project
-then pip install requirements.txt
+then  pip install -r requirements.txt
 or
 pip install selenium openai python-dotenv requests pandas 
 
